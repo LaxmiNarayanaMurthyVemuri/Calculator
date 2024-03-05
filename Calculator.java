@@ -1,5 +1,10 @@
 class Calculator {
 
+    public double ceil(double a) {
+        return Math.ceil(a);
+    }
+
+
     public int division(int a, int b) {
         return a / b;
     }
