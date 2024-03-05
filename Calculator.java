@@ -9,4 +9,7 @@ class Calculator {
         }
         return result;
     }
+        public int findFloor(double num) {
+        return (int) num; 
+    }
 }
