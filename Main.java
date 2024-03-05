@@ -1,35 +1,38 @@
+
+
 public class Main {
     // Your code for testing the remaining methods goes here
 
+    System.out.print(calculator.powerof(2,3));
+
+
+
+    int result = calculator.division(6, 3);
+    System.out.println(result);
+}
+
+
+    System.out.println(calculator.sub(1,2));
+
+
+
+    
+
+public static void main(String[] args) {
+   
+    Calculator calculator = new Calculator();
     int a= calculator.add(2,3);
     System.out.println(a);
     
-
-    public void testMultiplication() {
-       Calculator calculator = new Calculator();
-        // Test case 1: Basic multiplication
-        double result1 = calculator.multiply(2, 3);
-        System.out.println("Test Case 1: 2 * 3 = " + result1);
-        assert result1 == 6.0;
-
-        // Test case 2: Multiplication with zero
-        double result2 = calculator.multiply(5, 0);
-        System.out.println("Test Case 2: 5 * 0 = " + result2);
-        assert result2 == 0.0;
-
-        // Test case 3: Multiplication with negative numbers
-        double result3 = calculator.multiply(-4, 2, -3);
-        System.out.println("Test Case 3: (-4) * 2 * (-3) = " + result3);
-        assert result3 == 24.0;
-}
-public static void main(String[] args) {
-    Calculator calculator = new Calculator();
-    Main main = new Main();
-    main.testMultiplication();
    int ans=calculator.findFloor(5.8);
     System.out.println(ans);
+
+   double result=calculator.multiply(2,3);
+    System.out.println(result);
+
 }
 
 }
    
+
 
