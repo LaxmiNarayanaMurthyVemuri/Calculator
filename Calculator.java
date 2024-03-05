@@ -1,4 +1,12 @@
 class Calculator {
+
+
+    public double SquareRoot(double n){
+      return Math.sqrt(n);
+       
+    }
+    
+
     public int add(int a, int b) {
         int sum = a + b;
         return sum;
@@ -18,4 +26,5 @@ class Calculator {
     public int findFloor(double num) {
         return (int) num; 
     }
+
 }
