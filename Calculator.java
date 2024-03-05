@@ -1,12 +1,9 @@
 class Calculator {
-    public double multiply(double... numbers) {
-        if (numbers.length == 0) {
-            return 0;
+    public int power(int a, int b) {
+        int ans = 1;
+        for (int i = 0; i < b; i++) {
+            ans *= a;
         }
-        double result = 1.0;
-        for (double number : numbers) {
-            result *= number;
-        }
-        return result;
+        return ans;
     }
 }
