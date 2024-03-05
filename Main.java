@@ -6,6 +6,7 @@ public class Main {
         for(int i=0;i<b;i++){
             ans=ans*a;
         }
+        return ans;
     }
 }
 
