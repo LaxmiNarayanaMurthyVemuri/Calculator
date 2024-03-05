@@ -1,12 +1,6 @@
 class Calculator {
-    public double multiply(double... numbers) {
-        if (numbers.length == 0) {
-            return 0;
-        }
-        double result = 1.0;
-        for (double number : numbers) {
-            result *= number;
-        }
+    public double multiply(int a, int b) {
+        int result = a*b;
         return result;
     }
 }
