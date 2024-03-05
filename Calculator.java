@@ -1,6 +1,12 @@
 class Calculator {
-    public double multiply(int a, int b) {
-        int result = a*b;
+    public double multiply(double... numbers) {
+        if (numbers.length == 0) {
+            return 0;
+        }
+        double result = 1.0;
+        for (double number : numbers) {
+            result *= number;
+        }
         return result;
     }
         public int findFloor(double num) {
