@@ -3,6 +3,10 @@
 public class Main {
     // Your code for testing the remaining methods goes here
 
+    System.out.print(calculator.powerof(2,3));
+
+
+
     int result = calculator.division(6, 3);
     System.out.println(result);
 }
@@ -13,6 +17,7 @@ public class Main {
 
 
     
+
 public static void main(String[] args) {
    
     Calculator calculator = new Calculator();
@@ -24,6 +29,7 @@ public static void main(String[] args) {
 
    double result=calculator.multiply(2,3);
     System.out.println(result);
+
 }
 
 }

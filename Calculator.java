@@ -1,5 +1,13 @@
 class Calculator {
 
+    public int powerof(int a, int b) {
+        int ans = 1;
+        for (int i = 0; i < b; i++) {
+            ans *= a;
+        }
+        return ans;
+    }
+
     public double ceil(double a) {
         return Math.ceil(a);
     }
@@ -29,12 +37,9 @@ class Calculator {
     public double multiply(double... numbers) {
         if (numbers.length == 0) {
             return 0;
+
         }
-        double result = 1.0;
-        for (double number : numbers) {
-            result *= number;
-        }
-        return result;
+        return ans;
     }
         
     public int findFloor(double num) {
