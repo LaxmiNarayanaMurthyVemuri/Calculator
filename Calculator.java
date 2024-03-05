@@ -1,5 +1,10 @@
 class Calculator {
 
+    public int division(int a, int b) {
+        return a / b;
+    }
+
+
 
     public double sub(double a, double b){
         return a - b;
@@ -31,5 +36,6 @@ class Calculator {
         return (int) num; 
 
     }
+
 
 }
