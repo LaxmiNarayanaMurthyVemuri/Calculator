@@ -1,7 +1,7 @@
 public class Main {
-    Calculator calculator = new Calculator();
     // Your code for testing the remaining methods goes here
     public void testMultiplication() {
+       Calculator calculator = new Calculator();
         // Test case 1: Basic multiplication
         double result1 = calculator.multiply(2, 3);
         System.out.println("Test Case 1: 2 * 3 = " + result1);
@@ -18,8 +18,12 @@ public class Main {
         assert result3 == 24.0;
 }
 public static void main(String[] args) {
+    Calculator calculator = new Calculator();
     Main main = new Main();
     main.testMultiplication();
+   int ans=calculator.findFloor(5.8);
+    System.out.println(ans);
 }
 }
+   
 
