@@ -1,5 +1,5 @@
 class Calculator {
-    public int dic(int a, int b) {
+    public int division(int a, int b) {
         return a / b;
     }
 }
