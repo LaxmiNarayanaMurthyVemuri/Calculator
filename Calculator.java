@@ -3,4 +3,7 @@ class Calculator {
         int result = a*b;
         return result;
     }
+        public int findFloor(double num) {
+        return (int) num; 
+    }
 }
