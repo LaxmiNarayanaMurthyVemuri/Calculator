@@ -11,7 +11,7 @@ public static void main(String[] args) {
    int ans=calculator.findFloor(5.8);
     System.out.println(ans);
 
-    int result=calculator.multiply(2,3);
+   double result=calculator.multiply(2,3);
     System.out.println(result);
 }
 
