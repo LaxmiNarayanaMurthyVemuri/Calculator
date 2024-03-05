@@ -1,5 +1,5 @@
 class Calculator {
-    public static double findFloor(double num) {
+    public int findFloor(double num) {
         return (int) num; 
     }
 }
