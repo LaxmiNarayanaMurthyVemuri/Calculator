@@ -6,6 +6,18 @@ public class Main {
     System.out.print(calculator.powerof(2,3));
 
 
+
+    int result = calculator.division(6, 3);
+    System.out.println(result);
+}
+
+
+    System.out.println(calculator.sub(1,2));
+
+
+
+    
+
 public static void main(String[] args) {
    
     Calculator calculator = new Calculator();
@@ -22,4 +34,5 @@ public static void main(String[] args) {
 
 }
    
+
 
