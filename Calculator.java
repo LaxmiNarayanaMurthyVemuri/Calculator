@@ -1,6 +1,10 @@
 class Calculator {
 
 
+    public double sub(double a, double b){
+        return a - b;
+    }
+
     public double SquareRoot(double n){
       return Math.sqrt(n);
        
@@ -25,6 +29,7 @@ class Calculator {
         
     public int findFloor(double num) {
         return (int) num; 
+
     }
 
 }

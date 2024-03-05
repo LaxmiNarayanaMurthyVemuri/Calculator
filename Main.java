@@ -3,6 +3,9 @@
 public class Main {
     // Your code for testing the remaining methods goes here
 
+    System.out.println(calculator.sub(1,2));
+
+
 
     
 public static void main(String[] args) {
